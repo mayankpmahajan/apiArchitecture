@@ -1,0 +1,47 @@
+Agenda
+
+* Motivation
+    * Client/Server Communication
+    * Problem with client libraries
+    * why gRPC was invented?
+
+*gRPC
+    * Unary gRPC
+    * Server Streaming
+    * Client Streaming
+    * Bidirectional
+
+
+
+* Client Server Communication
+    * SOAP,REST, GraphQL
+    * SSE, WebSockets
+    * Raw TCP
+
+*The Problem with client libraries
+    *Any communication protocol needs client library for the language of choice
+        * SOAP library
+        * HTTP client library
+
+    * Hard to maintain and patch client libraries
+        *HTTP/1.1 HTTP/2 new features, security, etc
+
+
+*Why gRPC was invented?
+    Client Library: One library for popular languages
+    Protocol: HTTP/2 (hidden implementation)
+    Message Format: Protocol buffers as format
+
+
+*gRPC modes
+    *Unary RPC
+    *Server streaming RPC
+    *Client streaming RPC
+    *Bidirectional streaming RPC
+
+*Coding
+    *Todo application (server, client) with gRPC
+    *createTodo()
+    *readTodos() //synchronous 
+    *readTodos() //server stream
+
