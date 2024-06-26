@@ -45,3 +45,18 @@ Agenda
     *readTodos() //synchronous 
     *readTodos() //server stream
 
+gRPC Pros
+    *Fast and compact
+    *One client Library
+    *Progress Feedback (upload)
+    *Cancel Request (H2)
+    *H2/Protobuf
+
+Cons
+    *Schema
+    *Thick Client
+    *Proxies
+    *Still young (support)
+    *Error handling
+    *no native browser support
+    *timeouts (pub/sub)
